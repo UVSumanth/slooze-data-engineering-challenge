@@ -18,10 +18,10 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-OUTPUT_FILE = "C:/Users/uppal/PycharmProjects/pythonProject16/data/indiamart_hyderabad_packaging_machines.csv"
+OUTPUT_FILE = "data/indiamart_hyderabad_packaging_machines.csv"
 CATEGORY_NAME = "Industrial Packaging Machines"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+os.makedirs("data", exist_ok=True)
 
 # -------------------------
 # STEP 1: GET SEARCH PAGE (FOR LINKS ONLY)
