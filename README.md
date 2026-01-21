@@ -47,22 +47,22 @@ This approach improves:
 
 ## 🗂️ Project Structure
 
+```text
 slooze-data-engineering-challenge/
 │
 ├── crawler/
-│ └── scraper.py # Data collection (Part A)
+│   └── scraper.py  # Data collection (Part A)
 │
 ├── eda/
-│ └── eda_analysis.py # Cleaning + EDA (Part B)
+│   └── eda_analysis.py  # Cleaning + EDA (Part B)
 │
 ├── data/
-│ ├── indiamart_hyderabad_packaging_machines.csv
-│ └── indiamart_hyderabad_packaging_machines_clean.csv
+│   ├── indiamart_hyderabad_packaging_machines.csv
+│   └── indiamart_hyderabad_packaging_machines_clean.csv
 │
 ├── requirements.txt
 └── README.md
-
-
+```
 ---
 
 ## 🔍 Part A – Data Collection (Crawler)
