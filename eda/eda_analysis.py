@@ -6,10 +6,10 @@ import os
 # -------------------------
 # CONFIG
 # -------------------------
-RAW_FILE = "C:/Users/uppal/PycharmProjects/pythonProject16/data/indiamart_hyderabad_packaging_machines.csv"
-CLEAN_FILE = "C:/Users/uppal/PycharmProjects/pythonProject16/data/indiamart_hyderabad_packaging_machines_clean.csv"
+RAW_FILE = "../data/indiamart_hyderabad_packaging_machines.csv"
+CLEAN_FILE = "../data/indiamart_hyderabad_packaging_machines_clean.csv"
 
-os.makedirs(os.path.dirname(CLEAN_FILE), exist_ok=True)
+os.makedirs("data", exist_ok=True)
 
 # -------------------------
 # LOAD DATA
